@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of useState in React?",
+      "options": [
+        "To create routing paths",
+        "To manage component state",
+        "To fetch data from an API",
+        "To render lists"
+      ],
+      "correctAnswer": "To manage component state",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "question": "Which hook is used to perform side effects in React components?",
+      "options": [
+        "useEffect",
+        "useState",
+        "useContext",
+        "useReducer"
+      ],
+      "correctAnswer": "useEffect",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of React.lazy?",
+      "options": [
+        "To create lazy components",
+        "To implement code splitting",
+        "To handle async operations",
+        "To create slow components"
+      ],
+      "correctAnswer": "To implement code splitting",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 4,
+      "question": "Which hook is used to handle form state?",
+      "options": [
+        "useForm",
+        "useState",
+        "useReducer",
+        "useContext"
+      ],
+      "correctAnswer": "useState",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of useLayoutEffect?",
+      "options": [
+        "To handle layout changes",
+        "To perform measurements",
+        "To run effects synchronously after DOM mutations",
+        "To create responsive layouts"
+      ],
+      "correctAnswer": "To run effects synchronously after DOM mutations",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 6,
+      "question": "Which hook is used to handle errors in React components?",
+      "options": [
+        "useError",
+        "useErrorBoundary",
+        "useCatch",
+        "Error boundaries (not a hook)"
+      ],
+      "correctAnswer": "Error boundaries (not a hook)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of React.Suspense?",
+      "options": [
+        "To handle loading states",
+        "To create suspenseful components",
+        "To manage async operations",
+        "To create suspenseful UI"
+      ],
+      "correctAnswer": "To handle loading states",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 8,
+      "question": "Which hook is used to handle custom logic?",
+      "options": [
+        "useCustom",
+        "Custom hooks (not a specific hook)",
+        "useLogic",
+        "useHook"
+      ],
+      "correctAnswer": "Custom hooks (not a specific hook)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of useImperativeHandle?",
+      "options": [
+        "To create imperative code",
+        "To customize the instance value exposed to parent components",
+        "To handle imperative programming",
+        "To create imperative components"
+      ],
+      "correctAnswer": "To customize the instance value exposed to parent components",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 10,
+      "question": "Which hook is used to handle animations?",
+      "options": [
+        "useAnimation",
+        "useTransition",
+        "useMotion",
+        "useAnimate"
+      ],
+      "correctAnswer": "useTransition",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of useDebugValue?",
+      "options": [
+        "To debug components",
+        "To display a label for custom hooks in React DevTools",
+        "To create debug logs",
+        "To handle debugging"
+      ],
+      "correctAnswer": "To display a label for custom hooks in React DevTools",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 12,
+      "question": "Which hook is used to handle media queries?",
+      "options": [
+        "useMedia",
+        "useMediaQuery",
+        "useQuery",
+        "useScreen"
+      ],
+      "correctAnswer": "useMediaQuery",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of useId?",
+      "options": [
+        "To create unique IDs",
+        "To generate random numbers",
+        "To create unique identifiers for accessibility attributes",
+        "To handle identification"
+      ],
+      "correctAnswer": "To create unique identifiers for accessibility attributes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 14,
+      "question": "Which hook is used to handle window events?",
+      "options": [
+        "useWindow",
+        "useEvent",
+        "useEventListener",
+        "useWindowEvent"
+      ],
+      "correctAnswer": "useEventListener",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of useDeferredValue?",
+      "options": [
+        "To defer state updates",
+        "To defer value updates",
+        "To defer rendering",
+        "To defer component mounting"
+      ],
+      "correctAnswer": "To defer value updates",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 16,
+      "question": "Which hook is used to handle form validation?",
+      "options": [
+        "useValidation",
+        "useForm",
+        "useFormik",
+        "useYup"
+      ],
+      "correctAnswer": "useFormik",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of useSyncExternalStore?",
+      "options": [
+        "To sync external data",
+        "To sync external state",
+        "To sync external stores",
+        "To sync external components"
+      ],
+      "correctAnswer": "To sync external stores",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of React.memo?",
+      "options": [
+        "To create memoized components",
+        "To optimize performance by preventing unnecessary re-renders",
+        "To handle memory management",
+        "To create memoized functions"
+      ],
+      "correctAnswer": "To optimize performance by preventing unnecessary re-renders",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 19,
+      "question": "Which testing library is most commonly used with React?",
+      "options": [
+        "Jest",
+        "Mocha",
+        "Jasmine",
+        "Karma"
+      ],
+      "correctAnswer": "Jest",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of useCallback?",
+      "options": [
+        "To create callback functions",
+        "To memoize functions to prevent unnecessary re-renders",
+        "To handle async operations",
+        "To create event handlers"
+      ],
+      "correctAnswer": "To memoize functions to prevent unnecessary re-renders",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 21,
+      "question": "Which pattern is used to share state between components without prop drilling?",
+      "options": [
+        "Context API",
+        "Redux",
+        "MobX",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 22,
+      "question": "What is the purpose of useRef?",
+      "options": [
+        "To create references to DOM elements",
+        "To store mutable values that don't trigger re-renders",
+        "To handle form references",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 23,
+      "question": "Which hook is used to handle side effects in React?",
+      "options": [
+        "useEffect",
+        "useSideEffect",
+        "useCallback",
+        "useMemo"
+      ],
+      "correctAnswer": "useEffect",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 24,
+      "question": "What is the purpose of React.StrictMode?",
+      "options": [
+        "To enable strict type checking",
+        "To identify potential problems in the application",
+        "To enforce strict coding standards",
+        "To prevent certain React features"
+      ],
+      "correctAnswer": "To identify potential problems in the application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 25,
+      "question": "Which hook is used to handle complex state logic?",
+      "options": [
+        "useState",
+        "useReducer",
+        "useContext",
+        "useComplex"
+      ],
+      "correctAnswer": "useReducer",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 26,
+      "question": "What is the purpose of React.PureComponent?",
+      "options": [
+        "To create pure functions",
+        "To optimize performance by preventing unnecessary re-renders",
+        "To handle pure components",
+        "To create pure state"
+      ],
+      "correctAnswer": "To optimize performance by preventing unnecessary re-renders",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 27,
+      "question": "Which hook is used to handle form state with validation?",
+      "options": [
+        "useForm",
+        "useFormik",
+        "useYup",
+        "useValidation"
+      ],
+      "correctAnswer": "useFormik",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 28,
+      "question": "What is the purpose of React.lazy and Suspense?",
+      "options": [
+        "To handle lazy loading of components",
+        "To handle loading states",
+        "To handle async operations",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 29,
+      "question": "Which hook is used to handle animations in React?",
+      "options": [
+        "useAnimation",
+        "useTransition",
+        "useMotion",
+        "useAnimate"
+      ],
+      "correctAnswer": "useTransition",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 30,
+      "question": "What is the purpose of React.forwardRef?",
+      "options": [
+        "To forward refs to child components",
+        "To create forward references",
+        "To handle ref forwarding",
+        "To create forward components"
+      ],
+      "correctAnswer": "To forward refs to child components",
+      "difficulty": "Hard"
+    }
+  ]
+}
