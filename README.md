@@ -29,13 +29,14 @@ A modern, interactive quiz application built with React and Tailwind CSS that fe
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/react-flashcard.git
+git clone https://github.com/vivek-rastogi-1980/react-flashcard.git
 cd react-flashcard
 ```
 
 2. Install dependencies:
 ```bash
 npm install
+npm install vite --save-dev
 ```
 
 3. Start the development server:
